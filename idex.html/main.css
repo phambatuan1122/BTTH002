@@ -1,0 +1,92 @@
+.content{
+    width: 1200px;
+    margin: auto;
+}
+
+.content1{
+    display: flex;
+    width: 100%;
+}
+
+.content2{
+    width: 75%;
+    padding-right: 30px;
+}
+
+.content2 h1{
+    font-size: 22px;
+    text-align: center;
+}
+
+.content2 h2{
+    font-size: 20px;
+    color: #0B249E;
+}
+
+.content2 p,
+.content2__widget li{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.content2 span{
+    font-weight: 700;
+}
+
+.content2__widget li{
+    margin: 10px 0;
+}
+
+.content3{
+    width: 25%;
+    padding-left: 80px;
+}
+
+.content3__elementor,
+.img__QTM{
+    margin-bottom: 40px;
+}
+
+.content3__elementor img{
+    width: 100%;
+}
+
+.widget-title{
+    border-left: 4px solid #0000b5;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.content3__sidebar input,
+.content3__sidebar select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 10px 0;
+}
+
+::placeholder,
+select{
+    font-size: 15px;
+    color: #000;
+}
+
+.button{
+    padding: 14px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #edb017;
+    margin: 40px 0;
+    cursor: pointer;
+    left: 2px;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #008FCA;
+}
